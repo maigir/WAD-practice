@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dashboard</title>
+</head>
+
+<body>
+  <header>
+    <h1><strong>Welcome to your dashboard!</strong></h1>
+  </header>
+
+  <section>
+    <div>
+      <figure>
+        <img src="./res/images/me.png" width="128" height="128" alt="My picture">
+        <figcaption>This is me</figcaption>
+      </figure>
+    </div>
+    <div>
+      <ul>
+        <li>Maigi Rannamets</li>
+        <li>23/09/2024</li>
+        <li>Software Engineering</li>
+        <li><a href="mailto:rannamets.maigi@gmail.com">rannamets.maigi@gmail.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <strong>2.65</strong>
+    </div>
+  </section>
+  <section>
+    <h1>Courses</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Course Title</th>
+          <th>Semester</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><a href="https://ois2.ut.ee/#/courses/MTAT.03.295/details" title="Agile Software Development webpage"
+              target="_blank">Agile Software development</a>
+          </td>
+          <td>fall</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><a href="https://ois2.ut.ee/#/courses/LOTI.05.066/details" title="Systems modelling webpage"
+              target="_blank">Systems modelling</a></td>
+          <td>fall</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><a href="https://ois2.ut.ee/#/courses/MTAT.03.306/details" title="Requirements Engineering webpage"
+              target="_blank">Requirements Engineering</a>
+          </td>
+          <td>fall</td>
+          <td>99</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><a href="https://ois2.ut.ee/#/courses/LTAT.05.007/details" title="Human-Computer Interaction"
+              target="_blank">Human-Computer Interaction webpage</a>
+          </td>
+          <td>fall</td>
+          <td>65</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <div>
+      <label>Course Title:<br>
+        <input type="text"><br>
+      </label><br>
+
+      <label>Semester<br>
+        <select>
+          <option value="fall">Fall</option>
+          <option value="spring">Spring</option>
+        </select>
+      </label><br>
+      <br>
+      <label><strong>Attendance: </strong></label><br>
+      <input type="radio">
+      <label>Virtual Attendance</label><br>
+      <input type="radio">
+      <label>Physical Attendance</label><br>
+      <input type="Submit" value="Submit">
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+      </li>
+      <li>
+        <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
